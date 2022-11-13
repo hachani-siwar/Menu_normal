@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="menu_search"
+        ActionBar:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:title="menu_search"
+        ActionBar:showAsAction="ifRoom|withText" />
+</menu>
